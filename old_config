@@ -1,0 +1,42 @@
+[default]
+region = ap-southeast-1
+output = csv
+[profile tony]
+sso_start_url = https://3sfarm.awsapps.com/start/
+sso_region = us-east-1
+sso_account_id = 766321959869
+sso_role_name = PowerUserAccess
+region = us-east-1
+output = text
+[profile thanh]
+sso_start_url = https://3sfarm.awsapps.com/start/
+sso_region = us-east-1
+sso_account_id = 766321959869
+sso_role_name = PowerUserAccess
+region = IQoJb3JpZ2luX2VjEKH//////////wEaCXVzLWVhc3QtMSJIMEYCIQCBST0mpwgpZR14sD5a6HJ321XzKozAYN/aM6MCZpPc1AIhAPescPUHkJUTgzbH8uM8j7yBGxbNop4cKbZ+y4/beMTIKvMCCFoQAxoMNzY2MzIxOTU5ODY5Igw11M09yXjk3b5yZacq0AKoG/R/Ub5QAPMp/yQ7XTHcKGVSwkfnt/ZKzz/vVyHblanImDABP0NFxtB6z+bCgBph1lfxSbo+NRxMUD85SQ9m5SQDl85aHAszOMlCi/R1kHGzfza8MgICtS9kX9imPozLRgfvKsDhFeCPpIOYIXWdCcwaYSUyY38yi6A5hw0dQ8IuNXkyZ7ijpmji4qWtNLq/IkJ2n/iHdbcDMlDFbfsgxkxkFLeVpbOSlhvtQzdEta86gcWun0aW7VrObI5AhMnC3KkrwJpOJiM4jgHTaj0s4P6R1kVE1U620kW9E/3YAMmUhO5H9+5WE77fI9KH7RccCfydeRzCAO4jxzbALbXHpZHjts75puFhxf6l2wBWlGl6EYvzCtJCCxeKHAmdQC6ahaLsFyMdQ8l533CyKjv79A8i8h6ykX5hKIh8DS3KCn0PRalrhWNsO1XNu06+o4own7CmoAY6pgH7gdiN/iaiUmFZGQzga2R3/U13I72zrkdwGRpA+jZ/DUON/w0s7odffTazh01p/4dB9gbgWLQkmcKREt9biYOvayZOBzapQnmgbmwlsvx2U9UwSIw4annXuSQMzjdBmN64DlCtyjmSjjmJ55LOD8qpFCVbWH7m0vrg9MpUVwuz2q68QVxS+Qpuu2oNrhJUIWgLkEp/vd0DYa4vSSxJjm8b9CfE+l2T
+output = text
+[profile PowerUserAccess-766321959869]
+sso_start_url = https://3sfarm.awsapps.com/start#
+sso_region = us-east-1
+sso_account_id = 766321959869
+sso_role_name = PowerUserAccess
+region = us-east-1
+output = csv
+[profile ViewOnlyAccess-766321959869]
+sso_start_url = https://3sfarm.awsapps.com/start#
+sso_region = us-east-1
+sso_account_id = 766321959869
+sso_role_name = ViewOnlyAccess
+region = us-east-1
+output = csv
+[profile thanhhv]
+sso_start_url = https://3sfarm.awsapps.com/start/#/
+sso_region = us-east-1
+sso_account_id = 766321959869
+sso_role_name = PowerUserAccess
+region = us-east-1
+output = json
+[profile localstack]
+region = ap-southeast-1
+output = json
+

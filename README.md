@@ -45,5 +45,22 @@ aws s3 ls --profile localstack
 ```
 ###### [LocalStack endpoints](https://docs.localstack.cloud/references/internal-endpoints/#localstack-endpoints)
 
+### create instance
+```
+# create instance
+aws ec2 run-instances \
+    --image-id ami-0c55b159cbfafe1f0 \
+    --instance-type t2.micro
+
+# check all instance
+awslocal ec2 describe-instances --query Reservations[*].Instances[*].[InstanceId,State.Name,PublicIpAddress]
+```
+
+### stop instace
+```
+awslocal ec2 stop-instances --instance-ids <instance_id>
+```
+
 ## Document
 - [localstack](https://docs.localstack.cloud/overview/)
+
