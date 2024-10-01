@@ -33,8 +33,8 @@ endpoint_url=http://localhost:4566
 ```
 ##### Change `~/.aws/credentials`
 ```
-aws_access_key_id=test
-aws_secret_access_key=test
+aws_access_key_id=LocalStackAccessKey
+aws_secret_access_key=LocalStackSecretKey
 ```
 ##### Or Run CMD `aws configure --profile localstack` and enter step.
 
